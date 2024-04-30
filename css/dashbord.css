@@ -1,0 +1,210 @@
+
+/* styles.css */
+header {
+    background-image:linear-gradient(1deg,#F9F1F0,#FADCD9,#F8AFA6);
+    width: auto;
+    height: 55px;
+    box-shadow: 10px 10px 5px 5px #ffa6c1;
+    position: relative;
+    border: 1px solid gold;
+}
+img {
+    width: 250px; /* Adjust logo width */
+    height: 250px; /* Adjust logo height */
+    position: absolute;
+    top: 0;
+    left: 100px; 
+    margin: -80px;
+    }
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+}
+li {
+    float: left;
+}
+
+li a { 
+    display: block;
+    color: #A49393;
+    text-align: center;
+    padding: 10px 12px; /* Adjust the padding as needed */
+    text-decoration: none;
+    box-shadow: 1px 1px 10px 0px #F79489;
+}
+
+ul.navbar {
+    position: relative;
+    top: 0;
+    left: 75%;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE4EC; /* Light pink background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #800f35; /* Dark pink heading color */
+}
+
+form {
+    background-color: white; /* White form background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    box-shadow: 3px 3px 5px 0px #800f35;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 140px;
+    text-align: right;
+    color: #9b103e; /* Dark pink label color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    /* margin-bottom: 20px; */
+    border: 1px solid #801035; /* Dark pink border */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #85163b; /* Dark pink button background */
+    color: #FFFFFF; /* White button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF80AB; /* Lighter pink on hover */
+}
+
+/* Additional styling (optional) */
+input:focus {
+    outline: none;
+    border-color: #FF80AB; /* Lighter pink on focus */
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(100deg,white 75%,#F9F1F0,#FADCD9,#F8AFA6);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #8c4b60; /* Dark pink heading color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #FF4081; /* Dark pink border */
+}
+
+th {
+    background-color: #c9184a; /* Lighter pink header background */
+    color: #FFFFFF; /* White header text color */
+}
+
+tr:nth-child(even) {
+    background-color: #ff8fa3; /* Lighter pink row background for even rows */
+}
+
+/* Additional styling (optional) */
+input:focus {
+    outline: none;
+    border-color: #ffccd5; /* Lighter pink on focus */
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
